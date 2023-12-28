@@ -1,5 +1,4 @@
-# Bigint Class Documentation
-
+# Bigint README
 ## Overview
 The `bigint` class is a C++ implementation designed to hold quite large numbers. It either accepts numbers that are small enough to fit into a int64_t type or numbers larger (they would have to be defined as a string.)
 
