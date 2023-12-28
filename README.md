@@ -12,14 +12,14 @@ The `bigint` class is a C++ implementation designed to hold quite large numbers.
 
 ## Usage
 The class provides multiple constructors:  
-    bigint(): Initializes a bigint with a value of 0.<br>
-    bigint(const string&): Initializes a bigint from a string.  
-    bigint(const int64_t&): Initializes a bigint from an int64_t value.
-To use these constructors: 
-    bigint a; // Default constructor
-    bigint b("-1092992939929329323"); // From string
-    bigint c(132838283); // From int64_t
-With this, you can then add, subtract, multiply, or compare like you would do with any variable. 
+    bigint(): Initializes a bigint with a value of 0.  
+    bigint(const string&): Initializes a bigint from a string.      
+    bigint(const int64_t&): Initializes a bigint from an int64_t value.  
+To use these constructors:  
+    bigint a; // Default constructor  
+    bigint b("-1092992939929329323"); // From string  
+    bigint c(132838283); // From int64_t  
+With this, you can then add, subtract, multiply, or compare like you would do with any variable.   
 
 ## Examples
 
