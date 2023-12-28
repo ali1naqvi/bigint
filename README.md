@@ -11,9 +11,9 @@ The `bigint` class is a C++ implementation designed to hold quite large numbers.
 - values can be taken in as a string or as an int.
 
 ## Usage
-The class provides multiple constructors: 
-    bigint(): Initializes a bigint with a value of 0.
-    bigint(const string&): Initializes a bigint from a string.
+The class provides multiple constructors:  
+    bigint(): Initializes a bigint with a value of 0.<br>
+    bigint(const string&): Initializes a bigint from a string.  
     bigint(const int64_t&): Initializes a bigint from an int64_t value.
 To use these constructors: 
     bigint a; // Default constructor
